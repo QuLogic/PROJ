@@ -1,0 +1,7 @@
+option('jni', type : 'boolean', value : false,
+       description : 'Include Java/JNI support')
+option('jni-dir', type : 'string', value : '',
+       description : 'Set Java/JNI include directory.')
+
+option('mutex', type : 'boolean', value : true,
+       description : 'Enable real mutex locks (requires pthreads)')
